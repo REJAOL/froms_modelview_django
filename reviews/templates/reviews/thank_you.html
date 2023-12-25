@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>yo yo</title>
-</head>
-<body>
-    <h1>Thank you</h1>
-</body>
-</html>
+{% extends "reviews/base.html" %}
+
+{% block title %}
+welcome to hell
+{% endblock  %}
+
+{% block content %}
+<h1>hi , welcome to the page</h1>
+<p> {{ message }} </p>
+{% endblock  %}
